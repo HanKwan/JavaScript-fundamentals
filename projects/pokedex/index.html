@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+
+    <form id="search">
+        <input type="text" placeholder="Enter pokemon name" id="searchBar">
+        <button type="submit" id="searchBtn">Search</button>
+    </form>
+    
+    <div id="pokedex">
+        <div id="head">
+            <div id="pokemonName">Who's that pokemon?</div>
+            <p id="pokemonType"></p>
+        </div>
+        <img src="" alt="pokemon sprite" id="pokemonSprite" style="display: none;">
+        <div id="statsCard">
+            <div class="stat">
+                <span class="label">hp:</span>
+                <span class="value"></span>
+            </div>
+            <div class="stat">
+                <span class="label">attack:</span>
+                <span class="value"></span>
+            </div>
+            <div class="stat">
+                <span class="label">defense:</span>
+                <span class="value"></span>
+            </div>
+
+            <div class="stat">
+                <span class="label">special-attack:</span>
+                <span class="value"></span>
+            </div>
+
+            <div class="stat">
+                <span class="label">special-defense:</span>
+                <span class="value"></span>
+            </div>
+
+            <div class="stat">
+                <span class="label">speed:</span>
+                <span class="value"></span>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
